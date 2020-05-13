@@ -48,8 +48,8 @@ function calculateEvenNum(firstNum, secondNum){
         }
     }
     console.log(eNumArray);
-    document.getElementById("array").style.color = "blue";
-    document.getElementById("result").style.color = "blue";
+    document.getElementById("array").style.color = "teal";
+    document.getElementById("result").style.color = "teal";
     document.getElementById("result").innerHTML = "There are " + eNumArray.length +" even numbers:";
     document.getElementById("array").innerHTML = eNumArray;
 }

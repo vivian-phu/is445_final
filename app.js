@@ -4,16 +4,18 @@ function evenNum(){
 
     // check if the numbers fit criteria
     if (num1 <= 2 || num1 >= 100){
-        document.getElementById("msg1").innerHTML = "Number 1 input" + num1 + " is not a valid number.";
+        document.getElementById("msg1").innerHTML = "Number 1 input " + num1 + " is not a valid number.";
         document.getElementById("result").innerHTML = "";
         document.getElementById("msg1").style.color = "red";
         document.getElementById("result").style.color = "red";
+        document.getElementById("array").innerHTML = "";
     }
     if (num2 <= 2 || num2 >= 100){
-        document.getElementById("msg2").innerHTML = "Number 1 input" + num2 + " is not a valid number.";
+        document.getElementById("msg2").innerHTML = "Number 1 input " + num2 + " is not a valid number.";
         document.getElementById("result").innerHTML = "";
         document.getElementById("msg2").style.color = "red";
         document.getElementById("result").style.color = "red";
+        document.getElementById("array").innerHTML = "";
     }
     else if (num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <= 100){
         calculateEvenNum(num1,num2);

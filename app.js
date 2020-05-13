@@ -7,10 +7,14 @@ function evenNum(){
         console.log(parseInt(num1,10));
         document.getElementById("msg").innerHTML += "Number 1 input" + num1 + " is not a valid number.";
         document.getElementById("result").innerHTML = "";
+        document.getElementById("msg").style.color = "red";
+        document.getElementById("result").style.color = "red";
     }
     if (num2 <= 2 || num2 >= 100){
         document.getElementById("msg").innerHTML += "Number 1 input" + num2 + " is not a valid number.";
         document.getElementById("result").innerHTML = "";
+        document.getElementById("msg").style.color = "red";
+        document.getElementById("result").style.color = "red";
     }
     else if (num1 >= 2 && num1 <= 100 && num2 >= 2 && num2 <= 100){
         calculateEvenNum(num1,num2);

@@ -3,3 +3,7 @@
     border: 1px solid gold;
     background-color: white;
 }
+label{
+    display: block;
+    text-align: center;
+}
